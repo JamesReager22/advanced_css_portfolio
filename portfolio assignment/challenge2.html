@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<style>
+    #headline {
+        background-color: black;
+        color: white;
+    }
+
+#name {
+    font-size: 50px;
+    padding-left: 10px;
+    padding-top: 34px;
+}
+
+#pagelinks {
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+}
+    .pagelink {
+        padding-right: 52px;
+        padding-bottom: 20px;
+        color: white;
+        font-size: 30px;
+    } 
+    
+#newsection {
+    padding-top: 220px 
+    }
+    
+#worklinks {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+    
+.worklink {
+    padding-right: 48px;
+}  
+    #work1 {
+        background-color: red; 
+        color: white; 
+        font-size: 36px;
+        height: 100px;
+    }
+    #work2 {
+        background-color: blue; 
+        color: white; 
+        font-size: 16px;
+        position: relative;
+        top: -20px;
+    }
+    #work3 {
+        background-color: green; 
+        color: white; 
+        font-size: 16px;
+        position: relative;
+        top: 20px;
+        right: 133px;
+    }
+#contactme {
+    background-color: black;
+    color: white;   
+    }
+#contactinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-bottom: 40px;
+    }
+    .contact {
+        color: white;
+        padding-right: 40px;
+    }
+    
+    </style>  
+    <div id="headline"> 
+        <h1 id="name">James Reager</h1>
+        <div id="pagelinks">
+            <a href="#aboutme" class="pagelink">About me</a>
+            <a href="#work" class="pagelink"> Work</a>
+            <a href="#contactme" class="pagelink">Contact Me</a>
+        </div>
+    </div>
+    <div id="aboutme" style="padding-top: 60px">
+        <h1>About Me</h1>
+        <p>I'm an up-and-coming computer programmer studying at UC Berkley.<br>
+            This is my webpage where you'll find some examples of my most impressive work.</p>
+        <img src="me.jpg"  width="350" height="450" style="position: relative; bottom: 110px; left: 710px">
+    </div>
+    <div id="work">
+        <h1 class="newsection">My work</h1>
+        <div id="worklinks">
+            <a href="work1.html" class="worklink" id="work1">My 1st work</a>
+            <a href="work2.html" class="worklink" id="work2">My 2nd work</a>
+            <a href="work3.html" class="worklink" id="work3">My 3rd work</a>
+        </div>
+    </div>
+    <div id="contactme">
+        <h1 class="newsection">Contact me</h1>
+        <div id="contactinfo">
+            <p class="contact">(123) 456 7890</p>
+            <p class="contact">mrjameser1@gmail.com</p>
+            <a href="https://github.com/JamesReager22" class="contact" style="padding-top: 16px">My Github</a>
+        </div>    
+    </div>
+</html>
